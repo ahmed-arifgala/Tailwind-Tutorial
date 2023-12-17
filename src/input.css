@@ -1,0 +1,12 @@
+/* Add tailwind to CSS 
+getting us all the fucntionality from the tailwind*/
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+we could process this file through tailwind so that it spits out final output file into public folder */
+/* 
+whenever we change this file eg by adding our own styles, we have reporcess that so that it updates the public file  */
