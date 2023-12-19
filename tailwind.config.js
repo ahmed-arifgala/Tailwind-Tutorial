@@ -5,6 +5,8 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
+
+
     fontSize: {
       mammoth: '8rem'
     },
@@ -17,6 +19,10 @@ module.exports = {
         }
       }
     },
+
+    fontFamily: {
+      body: ['Nunito']
+    }
   },
   plugins: [],
 }
